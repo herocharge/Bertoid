@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -O3 -shared -Wl,-soname,libbert.so -o libbert.so CMakeFiles/bert.dir/bert.cpp.o  -Wl,-rpath,/home/bhargav/Desktop/fun/megathon/bert.cpp/build/ggml/src ggml/src/libggml.so -lm -pthread -ldl 

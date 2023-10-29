@@ -1,0 +1,501 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Android - 1 - armv7-a
+      The host system is: Linux - 5.15.0-87-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security
+      Id flags: -c;--target=armv7-none-linux-androideabi21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/3.27.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security
+      Id flags: -c;--target=armv7-none-linux-androideabi21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon"
+      binary: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat "
+      CMAKE_C_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon'
+        
+        Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36758/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_36758.dir/build.make CMakeFiles/cmTC_36758.dir/build
+        make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon'
+        Building C object CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon -resource-dir /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -x c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        Linking C executable cmTC_36758
+        /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36758.dir/link.txt --verbose=1
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -o cmTC_36758 
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_36758 /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+        make[1]: Leaving directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36758/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_36758.dir/build.make CMakeFiles/cmTC_36758.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon']
+        ignore line: [Building C object CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon -resource-dir /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-M9gYon -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -x c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_36758]
+        ignore line: [/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36758.dir/link.txt --verbose=1]
+        ignore line: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o -o cmTC_36758 ]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_36758 /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-X] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_36758] ==> ignore
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> obj [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_36758.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> obj [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        remove lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+        remove lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        implicit dirs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn"
+      binary: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat  "
+      CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn'
+        
+        Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ee1bc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ee1bc.dir/build.make CMakeFiles/cmTC_ee1bc.dir/build
+        make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn'
+        Building CXX object CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn -resource-dir /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
+         /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        Linking CXX executable cmTC_ee1bc
+        /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee1bc.dir/link.txt --verbose=1
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee1bc 
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ee1bc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+        make[1]: Leaving directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+          add: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        collapse include dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ee1bc/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ee1bc.dir/build.make CMakeFiles/cmTC_ee1bc.dir/build]
+        ignore line: [make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -c /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn -resource-dir /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-Xf4xnn -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        ignore line: [ /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_ee1bc]
+        ignore line: [/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee1bc.dir/link.txt --verbose=1]
+        ignore line: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee1bc ]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ee1bc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-X] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ee1bc] ==> ignore
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> obj [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib]
+          arg [-L/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_ee1bc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-lc++] ==> lib [c++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> obj [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        remove lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+        remove lib [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        collapse library dir [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        implicit dirs: [/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/arm;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi;/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo"
+      binary: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_C_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo'
+        
+        Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29da9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_29da9.dir/build.make CMakeFiles/cmTC_29da9.dir/build
+        make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo'
+        Building C object CMakeFiles/cmTC_29da9.dir/src.c.o
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_29da9.dir/src.c.o -MF CMakeFiles/cmTC_29da9.dir/src.c.o.d -o CMakeFiles/cmTC_29da9.dir/src.c.o -c /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo/src.c
+        /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo/src.c:13:3: error: call to undeclared function 'pthread_cancel'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+          pthread_cancel(thread);
+          ^
+        /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo/src.c:13:3: note: did you mean 'pthread_once'?
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/pthread.h:258:5: note: 'pthread_once' declared here
+        int pthread_once(pthread_once_t* _Nonnull __once, void (* _Nonnull __init_routine)(void));
+            ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_29da9.dir/build.make:79: CMakeFiles/cmTC_29da9.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-6ymVuo'
+        make: *** [Makefile:127: cmTC_29da9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/home/bhargav/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn"
+      binary: "/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_C_FLAGS_DEBUG: "-fno-limit-debug-info "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn'
+        
+        Run Build Command(s): /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36d68/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_36d68.dir/build.make CMakeFiles/cmTC_36d68.dir/build
+        make[1]: Entering directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn'
+        Building C object CMakeFiles/cmTC_36d68.dir/CheckForPthreads.c.o
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_36d68.dir/CheckForPthreads.c.o -MF CMakeFiles/cmTC_36d68.dir/CheckForPthreads.c.o.d -o CMakeFiles/cmTC_36d68.dir/CheckForPthreads.c.o -c /home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn/CheckForPthreads.c
+        Linking C executable cmTC_36d68
+        /home/bhargav/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d68.dir/link.txt --verbose=1
+        /mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/mnt/hdd/ndk/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_36d68.dir/CheckForPthreads.c.o -o cmTC_36d68  -pthread -latomic -lm 
+        make[1]: Leaving directory '/home/bhargav/Desktop/fun/megathon/bert.cpp/CMakeFiles/CMakeScratch/TryCompile-IihSXn'
+        
+      exitCode: 0
+...
